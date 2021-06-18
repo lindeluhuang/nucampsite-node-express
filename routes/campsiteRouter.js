@@ -21,8 +21,6 @@ campsiteRouter.route('/')
     res.end('Deleting all campsites');
 });
 
-
-
 campsiteRouter.route('/:campsiteId')
 .all((req, res, next) => {
     res.statusCode = 200;
